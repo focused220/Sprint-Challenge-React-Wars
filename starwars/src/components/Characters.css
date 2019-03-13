@@ -1,0 +1,19 @@
+body #root .App .content .characters{
+    margin: 0 auto;
+    width: 60%;
+}
+
+body #root .App .content .characters .character{
+    border: 1px solid brown;
+    margin-bottom: 2%;
+}
+
+body #root .App .content .characters .character li:hover{
+    
+    color: darkgrey;
+    cursor: pointer;
+}
+
+body #root .App .content .characters .character h3{
+    text-decoration: underline;
+}
